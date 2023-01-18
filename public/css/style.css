@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+    display: block;
+    position: relative;
+  }
+  
+  body::after {
+    content: "";
+    background: url('../img/chris-liverani-ViEBSoZH6M4-unsplash.jpg');
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+  .sign {
+    font-size: 2.2em;
+    color: purple;
+  }
